@@ -7,20 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FB94362C2587FE6E0062DA17 /* SignupScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB94362B2587FE6E0062DA17 /* SignupScreenViewController.swift */; };
+		FB94362F258801440062DA17 /* LoginScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB94362E258801440062DA17 /* LoginScreenViewController.swift */; };
 		FBD5EE302587C176008D5D74 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD5EE2F2587C176008D5D74 /* AppDelegate.swift */; };
 		FBD5EE322587C176008D5D74 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD5EE312587C176008D5D74 /* SceneDelegate.swift */; };
-		FBD5EE342587C176008D5D74 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD5EE332587C176008D5D74 /* ViewController.swift */; };
-		FBD5EE372587C176008D5D74 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBD5EE352587C176008D5D74 /* Main.storyboard */; };
+		FBD5EE342587C176008D5D74 /* MainScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD5EE332587C176008D5D74 /* MainScreenViewController.swift */; };
 		FBD5EE392587C179008D5D74 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBD5EE382587C179008D5D74 /* Assets.xcassets */; };
 		FBD5EE3C2587C179008D5D74 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBD5EE3A2587C179008D5D74 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FB94362B2587FE6E0062DA17 /* SignupScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupScreenViewController.swift; sourceTree = "<group>"; };
+		FB94362E258801440062DA17 /* LoginScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreenViewController.swift; sourceTree = "<group>"; };
 		FBD5EE2C2587C176008D5D74 /* Medical Notes App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Medical Notes App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBD5EE2F2587C176008D5D74 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FBD5EE312587C176008D5D74 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		FBD5EE332587C176008D5D74 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		FBD5EE362587C176008D5D74 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FBD5EE332587C176008D5D74 /* MainScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenViewController.swift; sourceTree = "<group>"; };
 		FBD5EE382587C179008D5D74 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FBD5EE3B2587C179008D5D74 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FBD5EE3D2587C179008D5D74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -58,11 +60,12 @@
 			children = (
 				FBD5EE2F2587C176008D5D74 /* AppDelegate.swift */,
 				FBD5EE312587C176008D5D74 /* SceneDelegate.swift */,
-				FBD5EE332587C176008D5D74 /* ViewController.swift */,
-				FBD5EE352587C176008D5D74 /* Main.storyboard */,
+				FBD5EE332587C176008D5D74 /* MainScreenViewController.swift */,
 				FBD5EE382587C179008D5D74 /* Assets.xcassets */,
 				FBD5EE3A2587C179008D5D74 /* LaunchScreen.storyboard */,
 				FBD5EE3D2587C179008D5D74 /* Info.plist */,
+				FB94362B2587FE6E0062DA17 /* SignupScreenViewController.swift */,
+				FB94362E258801440062DA17 /* LoginScreenViewController.swift */,
 			);
 			path = "Medical Notes App";
 			sourceTree = "<group>";
@@ -126,7 +129,6 @@
 			files = (
 				FBD5EE3C2587C179008D5D74 /* LaunchScreen.storyboard in Resources */,
 				FBD5EE392587C179008D5D74 /* Assets.xcassets in Resources */,
-				FBD5EE372587C176008D5D74 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +139,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FBD5EE342587C176008D5D74 /* ViewController.swift in Sources */,
+				FB94362C2587FE6E0062DA17 /* SignupScreenViewController.swift in Sources */,
+				FBD5EE342587C176008D5D74 /* MainScreenViewController.swift in Sources */,
 				FBD5EE302587C176008D5D74 /* AppDelegate.swift in Sources */,
+				FB94362F258801440062DA17 /* LoginScreenViewController.swift in Sources */,
 				FBD5EE322587C176008D5D74 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -146,14 +150,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		FBD5EE352587C176008D5D74 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FBD5EE362587C176008D5D74 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		FBD5EE3A2587C179008D5D74 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
