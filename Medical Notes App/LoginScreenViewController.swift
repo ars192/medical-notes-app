@@ -145,12 +145,10 @@ class LoginScreenViewController: UIViewController {
         loginStackView.addArrangedSubview(passwordView)
         loginStackView.addArrangedSubview(loginButton)
         loginStackView.addArrangedSubview(forgotPasswordButton)
-
     }
     
     // MARK: - Setting Constraints
     private func setupConstraints() {
-        
         loginStackView.centerYAnchor.constraint(equalTo: view.centerYAnchor).isActive = true
         loginStackView.centerXAnchor.constraint(equalTo: view.centerXAnchor).isActive = true
         loginStackView.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 20).isActive = true
@@ -188,7 +186,6 @@ class LoginScreenViewController: UIViewController {
         
         forgotPasswordButton.leadingAnchor.constraint(equalTo: loginStackView.leadingAnchor, constant: 100).isActive = true
         forgotPasswordButton.trailingAnchor.constraint(equalTo: loginStackView.trailingAnchor, constant: -100).isActive = true
-        
     }
 
 }

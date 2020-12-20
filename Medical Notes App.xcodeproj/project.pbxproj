@@ -58,6 +58,7 @@
 		FBD5EE2E2587C176008D5D74 /* Medical Notes App */ = {
 			isa = PBXGroup;
 			children = (
+				FBF391AC258FE82C00410733 /* Model */,
 				FBD5EE2F2587C176008D5D74 /* AppDelegate.swift */,
 				FBD5EE312587C176008D5D74 /* SceneDelegate.swift */,
 				FBD5EE332587C176008D5D74 /* OnboardingScreenViewController.swift */,
@@ -68,6 +69,13 @@
 				FB94362E258801440062DA17 /* LoginScreenViewController.swift */,
 			);
 			path = "Medical Notes App";
+			sourceTree = "<group>";
+		};
+		FBF391AC258FE82C00410733 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
