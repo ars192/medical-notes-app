@@ -18,7 +18,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // This delegate does not imply the connecting scene or session are new (see `application:configurationForConnectingSceneSession` instead).
         guard let windowsScene = (scene as? UIWindowScene) else { return }
         
-        let startScreenNavController = UINavigationController(rootViewController: MainScreenViewController())
+        let startScreenNavController = UINavigationController(rootViewController: OnboardingScreenViewController())
         startScreenNavController.modalPresentationStyle = .fullScreen
         window = UIWindow(frame: windowsScene.coordinateSpace.bounds)
         window?.windowScene = windowsScene

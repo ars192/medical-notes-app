@@ -6,17 +6,17 @@
 //
 
 import UIKit
-class MainScreenViewController: UIViewController {
+class OnboardingScreenViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = .white
         
-        let logoImage = UIImage(named: "logo")
+        let onboardingImage = UIImage(named: "onboarding")
         
         let imageView = UIImageView()
         imageView.contentMode = UIView.ContentMode.scaleAspectFill
-        imageView.image = logoImage
+        imageView.image = onboardingImage
         
         let name = UILabel(frame: CGRect(x: 100, y: 100, width: 100, height: 100))
         name.text = "Medical\n Notes App"
@@ -60,6 +60,7 @@ class MainScreenViewController: UIViewController {
         stackView.spacing = 20
         stackView.translatesAutoresizingMaskIntoConstraints = false
         
+        
         stackView.addArrangedSubview(imageView)
         imageView.widthAnchor.constraint(equalToConstant: 300).isActive = true
         imageView.heightAnchor.constraint(equalToConstant: 300).isActive = true
@@ -83,6 +84,7 @@ class MainScreenViewController: UIViewController {
         self.view.addSubview(stackView)
         stackView.centerYAnchor.constraint(equalTo: view.centerYAnchor).isActive = true
         stackView.centerXAnchor.constraint(equalTo: view.centerXAnchor).isActive = true
+
         
     }
     

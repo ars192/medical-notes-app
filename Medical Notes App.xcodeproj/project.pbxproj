@@ -11,7 +11,7 @@
 		FB94362F258801440062DA17 /* LoginScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB94362E258801440062DA17 /* LoginScreenViewController.swift */; };
 		FBD5EE302587C176008D5D74 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD5EE2F2587C176008D5D74 /* AppDelegate.swift */; };
 		FBD5EE322587C176008D5D74 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD5EE312587C176008D5D74 /* SceneDelegate.swift */; };
-		FBD5EE342587C176008D5D74 /* MainScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD5EE332587C176008D5D74 /* MainScreenViewController.swift */; };
+		FBD5EE342587C176008D5D74 /* OnboardingScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD5EE332587C176008D5D74 /* OnboardingScreenViewController.swift */; };
 		FBD5EE392587C179008D5D74 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBD5EE382587C179008D5D74 /* Assets.xcassets */; };
 		FBD5EE3C2587C179008D5D74 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBD5EE3A2587C179008D5D74 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
@@ -22,7 +22,7 @@
 		FBD5EE2C2587C176008D5D74 /* Medical Notes App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Medical Notes App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBD5EE2F2587C176008D5D74 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FBD5EE312587C176008D5D74 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		FBD5EE332587C176008D5D74 /* MainScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenViewController.swift; sourceTree = "<group>"; };
+		FBD5EE332587C176008D5D74 /* OnboardingScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingScreenViewController.swift; sourceTree = "<group>"; };
 		FBD5EE382587C179008D5D74 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FBD5EE3B2587C179008D5D74 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FBD5EE3D2587C179008D5D74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -60,7 +60,7 @@
 			children = (
 				FBD5EE2F2587C176008D5D74 /* AppDelegate.swift */,
 				FBD5EE312587C176008D5D74 /* SceneDelegate.swift */,
-				FBD5EE332587C176008D5D74 /* MainScreenViewController.swift */,
+				FBD5EE332587C176008D5D74 /* OnboardingScreenViewController.swift */,
 				FBD5EE382587C179008D5D74 /* Assets.xcassets */,
 				FBD5EE3A2587C179008D5D74 /* LaunchScreen.storyboard */,
 				FBD5EE3D2587C179008D5D74 /* Info.plist */,
@@ -140,7 +140,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FB94362C2587FE6E0062DA17 /* SignupScreenViewController.swift in Sources */,
-				FBD5EE342587C176008D5D74 /* MainScreenViewController.swift in Sources */,
+				FBD5EE342587C176008D5D74 /* OnboardingScreenViewController.swift in Sources */,
 				FBD5EE302587C176008D5D74 /* AppDelegate.swift in Sources */,
 				FB94362F258801440062DA17 /* LoginScreenViewController.swift in Sources */,
 				FBD5EE322587C176008D5D74 /* SceneDelegate.swift in Sources */,
